@@ -1,10 +1,11 @@
 package ma.enset;
 
 /**
- * On ajoute des commentaires
+ * On ajoute des commentaires en plus ...
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Ceci est un message ...");
+        String message = "Ceci est un commentaire ... ";
+        System.out.println(message);
     }    
 }
